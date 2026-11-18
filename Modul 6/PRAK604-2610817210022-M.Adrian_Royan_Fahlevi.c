@@ -17,7 +17,7 @@ int main() {
 
         for (int i = 0; i < len; i++) {
             if (code[i] == ' ' && message[i] == ' ') {
-                result[i] = ' ';          // spasi cocok: tampilkan spasi, tidak dihitung
+                result[i] = ' ';     
             } else if (code[i] == message[i]) {
                 result[i] = '*';
                 star++;
